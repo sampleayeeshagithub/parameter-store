@@ -11,6 +11,9 @@ variable "parameters" {
     {name = "prod.rds.master_username", value = "expense", type = "String"},
     {name = "prod.expense.frontend.backend_url", value = "http://backend-prod.ayeeshadevops75.online/", type = "String"},
     {name = "prod.rds.endpoint", value = "prod-mysql.cluster-cmzmzlxo5mcv.us-east-1.rds.amazonaws.com", type = "String"},
+
+    #dev
+    {name = "dev.expense.frontend.backend_url", value = "http://backend-dev.ayeeshadevops75.online/", type = "String"},
   ]
 }
 
