@@ -14,6 +14,9 @@ variable "parameters" {
 
     #dev
     {name = "dev.expense.frontend.backend_url", value = "http://backend-dev.ayeeshadevops75.online/", type = "String"},
+
+    {name = "jenkins_password", value = "admin123", type = "String"},
+
   ]
 }
 
