@@ -19,6 +19,8 @@ variable "parameters" {
     {name = "dev.expense.frontend.backend_url", value = "http://backend-dev.ayeeshadevops75.online/", type = "String"},
 
     {name = "jenkins_password", value = "admin123", type = "String"},
+    {name = "artifactory_username", value = "admin", type = "String"},
+    {name = "artifactory_password", value = "Admin123", type = "String"}
 
   ]
 }
