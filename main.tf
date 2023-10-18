@@ -15,6 +15,7 @@ variable "parameters" {
     {name = "prod.backend.app_version", value = "1.0.0", type = "String"},
     {name = "prod.frontend.app_version", value = "1.0.0", type = "String"},
 
+
     #dev
     {name = "dev.expense.frontend.backend_url", value = "http://backend-dev.ayeeshadevops75.online/", type = "String"},
 
