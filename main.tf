@@ -31,7 +31,8 @@ variable "parameters" {
     { name = "dev.roboshop.frontend.cart_url", value = "http://cart-dev.ayeeshadevops75.online:8080/", type = "String" },
     { name = "dev.roboshop.frontend.user_url", value = "http://user-dev.ayeeshadevops75.online:8080/", type = "String" },
     { name = "dev.roboshop.frontend.shipping_url", value = "http://shipping-dev.ayeeshadevops75.online:8080/", type = "String" },
-    { name = "dev.roboshop.frontend.payment_url", value = "http://payment-dev.ayeeshadevops75.online:8080/", type = "String" },  ]
+    { name = "dev.roboshop.frontend.payment_url", value = "http://payment-dev.ayeeshadevops75.online:8080/", type = "String" },
+  ]
 }
 
 
