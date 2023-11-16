@@ -41,6 +41,10 @@ variable "parameters" {
     { name = "dev.roboshop.cart.CATALOGUE_PORT", value = "8080", type = "String" },
 
 
+    ## Passwords
+    { name = "dev.roboshop.mysql.DB_PASS", value = "RoboShop@1", type = "SecureString" },
+
+
   ]
 }
 
