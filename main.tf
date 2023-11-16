@@ -39,11 +39,14 @@ variable "parameters" {
     { name = "dev.roboshop.cart.REDIS_HOST", value = "redis-dev.ayeeshadevops75.online", type = "String" },
     { name = "dev.roboshop.cart.CATALOGUE_HOST", value = "catalogue-dev.ayeeshadevops75.online", type = "String" },
     { name = "dev.roboshop.cart.CATALOGUE_PORT", value = "8080", type = "String" },
+    { name = "dev.roboshop.shipping.DB_HOST", value = "mysql-dev.ayeeshadevops75.online", type = "String" },
+    { name = "dev.roboshop.shipping.DB_USER", value = "root", type = "String" },
+    { name = "dev.roboshop.shipping.CART_ENDPOINT", value = "cart-dev.ayeeshadevops75.online:8080", type = "String" },
 
 
     ## Passwords
     { name = "dev.roboshop.mysql.DB_PASS", value = "RoboShop@1", type = "SecureString" },
-
+    { name = "dev.roboshop.shipping.DB_PASS", value = "RoboShop@1", type = "SecureString" },
 
   ]
 }
