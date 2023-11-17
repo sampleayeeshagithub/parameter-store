@@ -54,6 +54,8 @@ variable "parameters" {
     { name = "dev.roboshop.mysql.DB_PASS", value = "RoboShop@1", type = "SecureString" },
     { name = "dev.roboshop.shipping.DB_PASS", value = "RoboShop@1", type = "SecureString" },
     { name = "dev.roboshop.rabbitmq.MQ_PASS", value = "roboshop123", type = "SecureString" },
+    { name = "dev.roboshop.payment.AMQP_PASS", value = "roboshop123", type = "SecureString" },
+
   ]
 }
 
