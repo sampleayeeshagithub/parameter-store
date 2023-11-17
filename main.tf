@@ -42,6 +42,12 @@ variable "parameters" {
     { name = "dev.roboshop.shipping.DB_HOST", value = "mysql-dev.ayeeshadevops75.online", type = "String" },
     { name = "dev.roboshop.shipping.DB_USER", value = "root", type = "String" },
     { name = "dev.roboshop.shipping.CART_ENDPOINT", value = "cart-dev.ayeeshadevops75.online:8080", type = "String" },
+    { name = "dev.roboshop.payment.CART_HOST", value = "cart-dev.ayeeshadevops75.online", type = "String" },
+    { name = "dev.roboshop.payment.CART_PORT", value = "8080", type = "String" },
+    { name = "dev.roboshop.payment.USER_HOST", value = "user-dev.ayeeshadevops75.online", type = "String" },
+    { name = "dev.roboshop.payment.USER_PORT", value = "8080", type = "String" },
+    { name = "dev.roboshop.payment.AMQP_HOST", value = "rabbitmq-dev.ayeeshadevops75.online", type = "String" },
+    { name = "dev.roboshop.payment.AMQP_USER", value = "roboshop", type = "String" },
 
 
     ## Passwords
